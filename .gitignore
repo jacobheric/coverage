@@ -1,0 +1,10 @@
+
+.idea
+node_modules
+logs
+*.log
+.cache
+.parcel-cache
+dist
+data/db
+.env
