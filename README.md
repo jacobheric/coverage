@@ -23,7 +23,7 @@ to use for the present use case.
 
 ![db](db_diagram.png)
 
-The search implementation is in [graphql.ts](src/server/graphql.js), it uses simple SQL equals conditions. I chose
+The search implementation is in [graphql.ts](src/server/graphql.ts), it uses simple SQL equals conditions. I chose
 this assuming the inputs are known and fixed and not free form inputs requiring fuzziness. 
 
 The API is permissive when it comes to inputs. You can send both, one or none. Sending no inputs will return 
