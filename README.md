@@ -72,13 +72,34 @@ Running
 
 ```
 {  
-  coverage(params: { state: "IL", type: "Fire" }){
+  coverage(params: { state: "IL" }){
     state
     type
     carrier
   }
 }
 ```
+
+and you'll get a result like so:
+```
+{
+  "data": {
+    "coverage": [
+      {
+        "state": "IL",
+        "type": "Fire",
+        "carrier": "Allstate"
+      },
+      {
+        "state": "IL",
+        "type": "Auto",
+        "carrier": "Allstate"
+      }
+    ]
+  }
+}
+```
+
 
 
 
